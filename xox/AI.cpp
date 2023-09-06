@@ -10,7 +10,11 @@ AI::AI()
 
 Cell AI::getMove(SimpleBoard simpleBoard, PieceType piece, SinglePlayer singleplayer)
 {
-    if (singleplayer == SINGLEPLAYER)
+    if (singleplayer == DIFFICULTY_EASY)
+    {
+        return getRandomMove(simpleBoard);
+    }
+    else if (singleplayer == DIFFICULTY_MEDIUM)
     {
         return getOkayMove(simpleBoard, piece);
     }

@@ -62,9 +62,29 @@
       </widget>
      </item>
      <item>
+      <widget class="QRadioButton" name="radioButtonEasy">
+       <property name="font">
+        <font>
+         <family>Chilanka</family>
+         <pointsize>15</pointsize>
+         <italic>false</italic>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>shortcut E</string>
+       </property>
+       <property name="text">
+        <string>Easy</string>
+       </property>
+       <property name="shortcut">
+        <string>E</string>
+       </property>
+      </widget>
+     </item>
+     <item>
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
-        <widget class="QRadioButton" name="radioButtonStart">
+        <widget class="QRadioButton" name="radioButtonMedium">
          <property name="enabled">
           <bool>true</bool>
          </property>
@@ -74,8 +94,14 @@
            <pointsize>15</pointsize>
           </font>
          </property>
+         <property name="toolTip">
+          <string>shortcut M</string>
+         </property>
          <property name="text">
-          <string>Start</string>
+          <string>Medium</string>
+         </property>
+         <property name="shortcut">
+          <string>M</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -83,6 +109,25 @@
         </widget>
        </item>
       </layout>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButtonHard">
+       <property name="font">
+        <font>
+         <family>Chilanka</family>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>shortcut H</string>
+       </property>
+       <property name="text">
+        <string>Hard</string>
+       </property>
+       <property name="shortcut">
+        <string>H</string>
+       </property>
+      </widget>
      </item>
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -96,8 +141,14 @@
            <bold>true</bold>
           </font>
          </property>
+         <property name="toolTip">
+          <string>shortcut press Return</string>
+         </property>
          <property name="text">
           <string>Ok</string>
+         </property>
+         <property name="shortcut">
+          <string>Return</string>
          </property>
         </widget>
        </item>
@@ -111,8 +162,14 @@
            <bold>true</bold>
           </font>
          </property>
+         <property name="toolTip">
+          <string>shortcut press Backspace</string>
+         </property>
          <property name="text">
           <string>Cancel</string>
+         </property>
+         <property name="shortcut">
+          <string>Backspace</string>
          </property>
         </widget>
        </item>

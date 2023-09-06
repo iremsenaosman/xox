@@ -18,15 +18,23 @@ SelectSinglePlayerWidget::~SelectSinglePlayerWidget()
 SinglePlayer SelectSinglePlayerWidget::getSinglePlayer()
 {
 
-    if (ui->radioButtonStart->isChecked())
+    if (ui->radioButtonEasy->isChecked())
     {
-        return SINGLEPLAYER;
+        return DIFFICULTY_EASY;
+    }
+    else if (ui->radioButtonMedium->isChecked())
+    {
+        return DIFFICULTY_MEDIUM;
+    }
+    else if (ui->radioButtonHard->isChecked())
+    {
+        return DIFFICULTY_HARD;
     }
     else
     {
         qDebug() << "Nothing has been selected.";
         Q_ASSERT(false);
-        return SINGLEPLAYER_NONE;
+        return DIFFICULTY_NONE;
     }
 }
 

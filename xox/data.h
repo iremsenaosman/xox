@@ -45,8 +45,10 @@ enum PieceType
 
 enum SinglePlayer
 {
-    SINGLEPLAYER,
-    SINGLEPLAYER_NONE
+    DIFFICULTY_EASY,
+    DIFFICULTY_MEDIUM,
+    DIFFICULTY_HARD,
+    DIFFICULTY_NONE
 };
 
 

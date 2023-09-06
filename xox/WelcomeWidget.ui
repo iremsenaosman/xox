@@ -74,8 +74,14 @@
            <bold>true</bold>
           </font>
          </property>
+         <property name="toolTip">
+          <string>shortcut Ctrl+S</string>
+         </property>
          <property name="text">
           <string>Single Player</string>
+         </property>
+         <property name="shortcut">
+          <string>Ctrl+S</string>
          </property>
         </widget>
        </item>
@@ -89,8 +95,14 @@
            <bold>true</bold>
           </font>
          </property>
+         <property name="toolTip">
+          <string>shortcut Ctrl+M</string>
+         </property>
          <property name="text">
           <string>Multi-Player</string>
+         </property>
+         <property name="shortcut">
+          <string>Ctrl+M</string>
          </property>
         </widget>
        </item>
